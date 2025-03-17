@@ -71,7 +71,7 @@
         const loader = new THREE.GLTFLoader();
         loader.load('assets/models/scene.gltf', function (gltf) {
             model = gltf.scene;
-    model.scale.set(0.12, 0.12, 0.12);  // Increase size
+    model.scale.set(0.11, 0.11, 0.11);  // Increase size
     model.position.set(0, -0.2, 0);  // Adjust positioning
     scene.add(model);
             // Set Initial View Angle
@@ -94,7 +94,7 @@
 
             // Corrected Y-axis rotation (opposite direction)
             model.rotation.y = 3.8 + x * Math.PI * 0.3; 
-            model.rotation.x = 0.1 - y * Math.PI * 0.1;  // Negative to fix inversion
+            model.rotation.x = 0.1 + y * Math.PI * 0.1;  // Negative to fix inversion
         });
 
         // Animation Loop
