@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     overflow: hidden;
-    background: url('/3d-model-html-thtre.js/img/BG.png') no-repeat center center/cover; 
+    background: url('../img/BG.png') no-repeat center center/cover; 
     background-color: black !important;
     position: relative;
 }
