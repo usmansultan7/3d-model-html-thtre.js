@@ -81,7 +81,7 @@ camera.position.set(0, 0, 4);
 // Load GLTF Model
 let model;
 const loader = new THREE.GLTFLoader();
-loader.load('assets/models/scene.gltf', function (gltf) {
+loader.load('./assets/models/scene.gltf', function (gltf) {
     model = gltf.scene;
     adjustModelSize();
     scene.add(model);
